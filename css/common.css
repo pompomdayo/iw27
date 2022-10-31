@@ -1,0 +1,106 @@
+/* 
+前ページ共通(ヘッダー・フッター等)のcss
+*/
+
+@charset "utf-8";
+body {
+    width: 100%;
+    font-size: 100%; /* =16px */
+    font-family: ryo-gothic-plusn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ヘッダー*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.header-logo p {
+    margin-bottom: 14px;
+}
+.header-logo img {
+    width: 200px;
+}
+.header-search {
+    display: flex;
+    align-items: flex-end;
+}
+.header-search-input {
+    border: solid 1px #B8B8B8;
+}
+.header-search-btn {
+    background-color: #2E2E2E;
+    color: white;
+}
+.header-nav {
+    display: flex;
+    align-items: flex-end;
+}
+.header-nav-ul {
+    display: flex;
+}
+.header-nav-ul li {
+    padding: 4px 40px;
+    transition: 0.2s;
+}
+.header-nav-ul li:hover {
+    color: #D9333F;
+}
+.border-right {
+    border-right: solid 1px #707070;
+}
+
+/* 商品一覧 */
+.list-table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-item {
+    width: 300px;
+    padding-bottom: 54px;
+}
+.list-item img {
+    width: 300px;
+}
+.list-item-name {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 0.875rem;
+}
+.list-item-price {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 6px;
+    font-size: 1.125rem;
+}
+.new-toAll {
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+    transition: 0.2s;
+}
+.new-toAll p {
+    padding: 16px 40px;
+    color: white;
+    font-size:  0.875rem;
+}
+.new-toAll:hover {
+    background-color: #D9333F;
+}
+
+/* オススメ商品 */
+.recommend {
+    background-color: #F8F7EC;
+}

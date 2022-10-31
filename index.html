@@ -6,130 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CooD | キャンプ飯専門online store</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'fwa6diz',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
 
 <body>
    <header class="header">
-        <div>
+        <div class="header-logo">
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_black.png" alt="CooD">
         </div>
-        <div>
+        <div class="header-search">
             <form action="">
-                <input type="search" placeholder="キーワードを入力">
-                <input type="submit" value="検索">
+                <input type="search" placeholder="キーワードを入力" class="header-search-input">
+                <input type="submit" value="検索" class="header-search-btn">
             </form>
         </div>
-        <div>
+        <div class="header-nav">
             <nav>
-                <ul>
-                    <li>商品を選ぶ</li>
-                    <li>ログイン</li>
-                    <li>Coodとは？</li>
-                    <li>問い合わせ</li>
+                <ul class="header-nav-ul">
+                    <a href="#"><li class="border-right">商品を選ぶ</li></a>
+                    <a href="#"><li class="border-right">ログイン</li></a>
+                    <a href="#"><li class="border-right">Coodとは？</li></a>
+                    <a href="#"><li>問い合わせ</li></a>
                 </ul>
             </nav>
         </div>
    </header>
 
-   <main>
+   <main class="main">
         <h1>CooD | キャンプ飯専門online store</h1>
         <img src="images/top_kv.png" alt="">
    </main>
 
-   <section>
-        <div>
+   <section class="new">
+        <div class="new-title">
             <h2>NEW ARRIVAL</h2>
             <h3>新着商品</h3>
         </div>
 
-        <div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
+        <div class="list"><!-- 商品一覧のcssはcommon.css -->
+            <div class="list-table">
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
             </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
+            <div class="list-table">
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
             </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
-            </div>
-            <div>
-                <img src="images/item.png" alt="">
-                <p>豚肉 バラ肉 200g</p>
-                <p>¥1,000</p>
+            <div class="list-table">
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
+                <div class="list-item">
+                    <img src="images/item.png" alt="">
+                    <p class="list-item-name">豚肉 バラ肉 200g</p>
+                    <p class="list-item-price">¥1,000</p>
+                </div>
             </div>
         </div>
 
-        <div>
+        <div class="new-toAll">
             <a href="#">
                 <p>取り扱い一覧ページへ</p>
             </a>
         </div>
    </section>
 
-   <section>
+   <section class="recommend">
         <div>
             <h2>RECOMMEND ITEMS</h2>
             <h3>オススメ商品</h3>
