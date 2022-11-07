@@ -1,0 +1,40 @@
+/* 
+index.htmlのcss
+*/
+
+/* メイン */
+/* 
+完成形はスライドショー(暫定で写真いれる)
+*/
+.main {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.main h1 {
+    display: none;
+}
+.main img {
+    width: 800px;
+}
+
+/* 新着商品 */
+.new {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.new-title {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 52px;
+}
+.new-title h2 {
+    font-size: 1.625rem;
+}
+.new-title h3 {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 12px;
+    font-size: 1.25rem;
+}
