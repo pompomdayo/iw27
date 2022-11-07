@@ -2,6 +2,10 @@
 index.htmlのcss
 */
 
+.wrapper {
+    padding-bottom: 188px;
+}
+
 /* メイン */
 /* 
 完成形はスライドショー(暫定で写真いれる)
@@ -23,6 +27,7 @@ index.htmlのcss
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .new-title {
     width: fit-content;
@@ -33,6 +38,31 @@ index.htmlのcss
     font-size: 1.625rem;
 }
 .new-title h3 {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 12px;
+    font-size: 1.25rem;
+}
+
+/* オススメ商品 */
+.recommend {
+    padding-top: 104px;
+    padding-bottom: 48px;
+    background-color: #F8F7EC;
+}
+.recommend_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.recommend_title {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 52px;
+}
+.recommend_title h2 {
+    font-size: 1.625rem;
+}
+.recommend_title h3 {
     width: fit-content;
     margin: 0 auto;
     padding-top: 12px;
