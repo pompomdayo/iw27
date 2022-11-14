@@ -1,0 +1,77 @@
+/* 
+contact.htmlのcss
+*/
+
+.contact-title {
+    margin: 100px 0 50px 0;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.contact-form {
+   
+}
+
+.contact-name {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.contact-name-row {
+    display: flex;
+}
+.contact-name input {
+    display: block;
+    width: 400px;
+    padding: 14px 0 14px 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    outline:none;
+    border-color: #DBDAD7;
+}
+
+.contact-email {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.contact-email input {
+    display: block;
+    width: 400px;
+    padding: 17px 0 17px 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    outline:none;
+}
+
+.contact-subject {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.contact-subject input {
+    display: block;
+    width: 400px;
+    padding: 17px 0 17px 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    outline:none;
+}
+
+.contact-main-message {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.contact-main-message input {
+    display: block;
+    width: 400px;
+    padding: 17px 0 17px 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    outline:none;
+}
+
+::placeholder {
+    color: #DBDAD7;
+}

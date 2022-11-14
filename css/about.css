@@ -12,8 +12,8 @@ about.htmlのcss
 .about-logo img {
     margin: 0 0 10px 0;
 }
-.about-logo p {
-    font-size: 20px;
+.about-logo h2 {
+    font-size: 1.25rem;/*20px*/
     font-weight: 700;
 }
 
@@ -22,13 +22,13 @@ about.htmlのcss
 }
 .about-service-hedding {
     margin: 0 0 70px 0;
-    font-size: 24px;
+    font-size: 1.5rem;/*24px*/
     font-weight: 700;
 }
 
 .about-service-text {
     margin: 0 0 50.5px 0;
-    font-size: 18px;
+    font-size: 1.125rem;/*18px*/
     font-weight: 500;
     line-height: 3.333333;
 }
@@ -37,12 +37,12 @@ about.htmlのcss
 }
 .about-delivery-hedding {
     margin: 0 0 70px 0;
-    font-size: 24px;
+    font-size: 1.5rem;/*24px*/
     font-weight: 700;
 }
 .about-delivery-text {
     margin: 0 0 100px 0;
-    font-size: 18px;
+    font-size: 1.125rem;/*18px*/
     font-weight: 500;
     line-height: 3.333333;
 }
