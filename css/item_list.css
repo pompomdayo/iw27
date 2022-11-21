@@ -1,0 +1,50 @@
+/* 
+商品一覧ページのCSS
+*/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.title {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 52px;
+}
+.title h2 {
+    font-size: 1.625rem;
+}
+.title h3 {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 12px;
+    font-size: 1.25rem;
+}
+
+/* 検索 */
+.search {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #F4F0D1;
+}
+.search p {
+    display: flex;
+    justify-content: space-between;
+}
+.seatch_words {
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.seatch_words input {
+    margin-right: 20px;
+}
+.search_text {
+    margin: 30px 0 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
