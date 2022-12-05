@@ -1,0 +1,32 @@
+/* 
+item_details.htmlのcss
+*/
+
+.wrapper {
+    display: flex;
+    margin: 100px 0 0 0;
+}
+.wrapper img {
+    width: 45vw;
+    margin: 0 100px 0 0;
+}
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    background-color: aqua;
+    text-align: left
+}
+th {
+    width: 120px;
+    background-color: brown;
+}
+td {
+    background-color: bisque;
+    flex-wrap: ;
+}
