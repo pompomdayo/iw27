@@ -1,0 +1,70 @@
+/* 
+cart.htmlのcss
+*/
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    width: fit-content;
+    font-size: 1.625rem;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+table {
+    width: 800px;
+    border: 2px solid #2E2E2E;
+    background-color: #F8F7EC;
+}
+table th {
+    border-bottom: 1px solid #2E2E2E;
+}
+table img {
+    width: 300px;
+}
+.cart_table {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+.cart_item {
+    width: 450px;
+}
+.cart_itemName {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_delete {
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cart_delete:hover {
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+}
+.cart_total {
+    width: 450px;
+    padding: 10px;
+    background-color: aqua;
+}
+.cart_total p {
+    background-color: blue;
+    text-align: left;
+}
+.cart_total span {
+    text-align: right;
+    font-size: 1.65rem;
+}
