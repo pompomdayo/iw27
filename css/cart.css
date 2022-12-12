@@ -18,8 +18,13 @@ h2 {
 
 table {
     width: 800px;
+    margin-bottom: 50px;
     border: 2px solid #2E2E2E;
     background-color: #F8F7EC;
+}
+table tr {
+    display: flex;
+    flex-direction: column;
 }
 table th {
     border-bottom: 1px solid #2E2E2E;
@@ -30,12 +35,12 @@ table img {
 .cart_table {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px;
     font-size: 1.25rem;
     font-weight: normal;
 }
 .cart_item {
-    width: 450px;
+    width: 400px;
 }
 .cart_itemName {
     display: flex;
@@ -47,24 +52,44 @@ table img {
     justify-content: flex-end;
     align-items: flex-end;
 }
-.cart_delete:hover {
+.cart_delete p {
+    transition: 0.2s;
+}
+.cart_delete p:hover {
     cursor: pointer;
+    color: #D9333F;
 }
 
 .total {
     display: flex;
     justify-content: flex-end;
 }
-.cart_total {
-    width: 450px;
-    padding: 10px;
-    background-color: aqua;
+.total_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 400px;
+    padding: 30px;
 }
-.cart_total p {
-    background-color: blue;
-    text-align: left;
-}
-.cart_total span {
-    text-align: right;
+.total_price {
     font-size: 1.65rem;
+}
+
+.tocheck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 14px 60px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+    color: white;
+    transition: 0.2s;
+}
+.tocheck:hover {
+    cursor: pointer;
+    border: 2px solid #D9333F;
+    background-color: white;
+    color: #D9333F;
 }

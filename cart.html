@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,19 +11,19 @@
     <link rel="stylesheet" href="css/cart.css">
     <script>
         /*フォント*/
-        (function(d) {
-          var config = {
-            kitId: 'fwa6diz',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        (function (d) {
+            var config = {
+                kitId: 'fwa6diz',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
-      </script>
+    </script>
 </head>
 
 <body>
-   <header class="header">
+    <header class="header">
         <div class="header-logo">
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_black.png" alt="CooD">
@@ -36,16 +37,28 @@
         <div class="header-nav">
             <nav>
                 <ul class="header-nav-ul">
-                    <a href="#"><li class="border-right">商品を選ぶ</li></a>
-                    <a href="#"><li class="border-right">ログイン</li></a>
-                    <a href="about.html"><li class="border-right">Coodとは？</li></a>
-                    <a href="contact.html"><li>問い合わせ</li></a>
+                    <a href="#">
+                        <li class="border-right">商品を選ぶ</li>
+                    </a>
+                    <a href="#">
+                        <li class="border-right">ログイン</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="border-right">Coodとは？</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>問い合わせ</li>
+                    </a>
                 </ul>
             </nav>
         </div>
-   </header>
+    </header>
 
-   <div class="wrapper">
+    <div class="wrapper">
+        <div class="cart_btn">
+            <img src="images/cart_btn.png" alt="カートを見る">
+        </div>
+
         <h2>SHOPPING CART</h2>
 
         <table>
@@ -67,29 +80,62 @@
                         </div>
                     </div>
                 </th>
+                <th>
+                    <div class="cart_table">
+                        <div>
+                            <img src="images/item.png" alt="商品名">
+                        </div>
+
+                        <div class="cart_item">
+                            <div class="cart_itemName">
+                                <p>豚肉 バラ肉 200g</p>
+                                <p>¥1,000</p>
+                            </div>
+                            <div class="cart_delete">
+                                <p>削除する</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="cart_table">
+                        <div>
+                            <img src="images/item.png" alt="商品名">
+                        </div>
+
+                        <div class="cart_item">
+                            <div class="cart_itemName">
+                                <p>豚肉 バラ肉 200g</p>
+                                <p>¥1,000</p>
+                            </div>
+                            <div class="cart_delete">
+                                <p>削除する</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
             </tr>
             <tr>
                 <th class="total">
-                    <div class="cart_total">
-                        <p>小計(税込み) <span>¥4,000</span></p>
+                    <div class="total_cart">
+                        <p>小計(税込み)</p>
+                        <p class="total_price">4,000円</p>
                     </div>
                 </th>
             </tr>
         </table>
-        <section>
-            
-        </section>
 
-        <div>
+        <div class="tocheck">
             <p>会計へ進む</p>
         </div>
-   </div>
+    </div>
 
-   <footer class="footer">
+    <footer class="footer">
         <div>
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_red.png" alt="CooD">
         </div>
-   </footer>
+    </footer>
 </body>
+
 </html>
