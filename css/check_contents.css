@@ -1,0 +1,15 @@
+/* 
+check_contents.htmlのCSS
+*/
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h2 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+}

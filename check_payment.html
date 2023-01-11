@@ -55,26 +55,9 @@
     </header>
 
     <div class="wrapper">
-        <nav class="breadcrubs">
-            <ul>
-                <li>
-                    <p class="breadcrubs_number">1</p>
-                    <p>注文者情報入力</p>
-                </li>
-                <li>
-                    <p class="breadcrubs_number">2</p>
-                    <p>決済情報入力</p>
-                </li>
-                <li>
-                    <p class="breadcrubs_number">3</p>
-                    <p>注文確認</p>
-                </li>
-                <li>
-                    <p class="breadcrubs_number">4</p>
-                    <p>注文確定</p>
-                </li>
-            </ul>
-        </nav>
+        <div class="breadcrubs">
+            <img src="images/check_payment__breadcrubs.png" alt="決済情報入力">
+        </div>
 
         <h2>お支払い方法</h2>
 
@@ -85,10 +68,10 @@
         <section class="payment">
             <table class="payment_input">
                 <tr>
-                    <th>
+                    <th class="payment_input_radio">
                         <input type="radio" name="BankConvenience" value="現金支払い（代金引換）">銀行・コンビニ決済
                     </th>
-                    <th>
+                    <th class="payment_input_detail">
                         <div>
                             <p>商品代金お支払い確認後の配送になります。
                                 恐れ入りますが、振込手数料はお客様ご負担でお願い致します。
@@ -101,16 +84,16 @@
                     </th>
                 </tr>
                 <tr>
-                    <th>
+                    <th class="payment_input_radio">
                         <input type="radio" name="cash" value="現金支払い（代金引換）">現金支払い（代金引換）
                     </th>
                     <th></th>
                 </tr>
                 <tr>
-                    <th>
+                    <th class="payment_input_radio">
                         <input type="radio" name="cash" value="クレジットカード決済">クレジットカード決済
                     </th>
-                    <th>
+                    <th class="payment_input_detail">
                         <p>お支払いは、ご一括のみ対応となります。
                             以下にクレジットカードの情報をご入力ください。
                         </p>
@@ -122,11 +105,15 @@
                                 <input type="text">
                             </p>
                             <p>有効期限（月/年）
+                            <div class="date">
                                 <input type="text">　/　<input type="text">
+                            </div>
                             </p>
                             <p>セキュリティーコード
+                            <div class="code">
                                 <input type="text">
                                 <img src="images/payment_securitycode.png" alt="カードに記載された3・4桁の数字です">
+                            </div>
                             </p>
                         </form>
                     </th>
@@ -136,33 +123,50 @@
             <div class="cart">
                 <table>
                     <tr>
-                        <th>
+                        <th class="cart_img">
                             <img src="images/item.png" alt="">
                         </th>
-                        <th>
+                        <th class="cart_name">
                             <p>豚肉 バラ肉 200g</p>
                         </th>
-                        <th>
+                        <th class="cart_price">
                             <p>¥1,000</p>
                         </th>
                     </tr>
                     <tr>
-                        <p>¥4,000</p>
+                        <th class="cart_img">
+                            <img src="images/item.png" alt="">
+                        </th>
+                        <th class="cart_name">
+                            <p>豚肉 バラ肉 200g</p>
+                        </th>
+                        <th class="cart_price">
+                            <p>¥1,000</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="total_price">
+                            <p>¥4,000</p>
+                        </th>
                     </tr>
                 </table>
-
                 <button>カート情報変更</button>
+
             </div>
 
-            <button>次へ</button>
+
         </section>
 
-        <footer class="footer">
-            <div>
-                <p>キャンプ飯 ONLINE STORE</p>
-                <img src="images/logo_red.png" alt="CooD">
-            </div>
-        </footer>
+        <button class="next">次へ</button>
+
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p>キャンプ飯 ONLINE STORE</p>
+            <img src="images/logo_red.png" alt="CooD">
+        </div>
+    </footer>
 </body>
 
 </html>

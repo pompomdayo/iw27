@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CooD | キャンプ飯専門online store</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/check_contents.css">
+    <script>
+        /*フォント*/
+        (function (d) {
+            var config = {
+                kitId: 'fwa6diz',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <p>キャンプ飯 ONLINE STORE</p>
+            <img src="images/logo_black.png" alt="CooD">
+        </div>
+        <div class="header-search">
+            <form action="">
+                <input type="search" placeholder="キーワードを入力" class="header-search-input">
+                <input type="submit" value="検索" class="header-search-btn">
+            </form>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul class="header-nav-ul">
+                    <a href="#">
+                        <li class="border-right">商品を選ぶ</li>
+                    </a>
+                    <a href="#">
+                        <li class="border-right">ログイン</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="border-right">Coodとは？</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>問い合わせ</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="breadcrubs">
+            <img src="images/check_contents__breadcrubs.png" alt="注文確認">
+        </div>
+
+        <h2>注文確認</h2>
+
+        <section>
+            <div>
+                <h6>お客様情報</h6>
+                <p>HAL　太郎　様<br>
+                    ハル　タロウ<br>
+                    〒160-0023<br>
+                    東京都新宿区西新宿1-7-3<br>
+                    000-0000-0000<br>
+                    hal.tokyo@hal.com
+                </p>
+            </div>
+            <div>
+                <h6>配送情報</h6>
+                <div>
+                    <div>
+                        <img src="images/item.png" alt="">
+                    </div>
+                    <div>
+                        <p>豚肉 バラ肉 200g</p>
+                        <p>¥1,000×4　　小計：¥4,000</p>
+                    </div>
+                </div>
+                <p>HAL　太郎（ハル　タロウ）様<br>
+                    〒160-0023　東京都新宿区西新宿1-7-3<br>
+                    000-0000-0000<br>
+                    hal.tokyo@hal.com
+                </p>
+                <p><span>配送方法</span>HALクール便（￥1,000）</p>
+                <p><span>お届け日</span>指定なし　　<span>お届け時間</span>指定なし</p>
+            </div>
+            <div>
+                <h6>お支払方法</h6>
+                <p>コンビニ決済（ファミリーマート）
+                </p>
+            </div>
+            <div>
+                <h6>会員ランク</h6>
+                <p>シルバー
+                </p>
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p>キャンプ飯 ONLINE STORE</p>
+            <img src="images/logo_red.png" alt="CooD">
+        </div>
+    </footer>
+</body>
+
+</html>
