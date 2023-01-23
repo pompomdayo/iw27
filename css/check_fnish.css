@@ -1,0 +1,22 @@
+/* 
+check_finish.htmlのcss
+*/
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h2 {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
