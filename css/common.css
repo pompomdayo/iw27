@@ -125,3 +125,13 @@ a {
 .cart_btn img {
     width: 100px;
 }
+
+/* 決済ページ パンくずリスト */
+.breadcrubs {
+    width: 100%;
+    text-align: center;
+}
+.breadcrubs img {
+    width: 700px;
+    margin-bottom: 50px;
+}
