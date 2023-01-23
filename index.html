@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +11,24 @@
     <link rel="stylesheet" href="css/index.css">
     <script>
         /*フォント*/
-        (function(d) {
-          var config = {
-            kitId: 'fwa6diz',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        (function (d) {
+            var config = {
+                kitId: 'fwa6diz',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
-      </script>
+    </script>
 </head>
 
 <body>
-   <header class="header">
+    <header class="header">
         <div class="header-logo">
-            <p>キャンプ飯 ONLINE STORE</p>
-            <img src="images/logo_black.png" alt="CooD">
+            <a href="index.html">
+                <p>キャンプ飯 ONLINE STORE</p>
+                <img src="images/logo_black.png" alt="CooD">
+            </a>
         </div>
         <div class="header-search">
             <form action="">
@@ -36,31 +39,41 @@
         <div class="header-nav">
             <nav>
                 <ul class="header-nav-ul">
-                    <a href="#"><li class="border-right">商品を選ぶ</li></a>
-                    <a href="#"><li class="border-right">ログイン</li></a>
-                    <a href="about.html"><li class="border-right">Coodとは？</li></a>
-                    <a href="contact.html"><li>問い合わせ</li></a>
+                    <a href="item_list.html">
+                        <li class="border-right">商品を選ぶ</li>
+                    </a>
+                    <a href="#">
+                        <li class="border-right">ログイン</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="border-right">Coodとは？</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>問い合わせ</li>
+                    </a>
                 </ul>
             </nav>
         </div>
-   </header>
+    </header>
 
-   <div class="wrapper">
-       <main class="main">
+    <div class="wrapper">
+        <main class="main">
             <h1>CooD | キャンプ飯専門online store</h1>
             <img src="images/top_kv.png" alt="">
-       </main>
+        </main>
 
-       <div class="cart_btn">
-            <img src="images/cart_btn.png" alt="カートを見る">
-       </div>
-    
-       <section class="new">
+        <div class="cart_btn">
+            <a href="cart.html">
+                <img src="images/cart_btn.png" alt="カートを見る">
+            </a>
+        </div>
+
+        <section class="new">
             <div class="new-title">
                 <h2>NEW ARRIVAL</h2>
                 <h3>新着商品</h3>
             </div>
-    
+
             <div class="list"><!-- 商品一覧のcssはcommon.css -->
                 <div class="list-table">
                     <div class="list-item">
@@ -114,21 +127,21 @@
                     </div>
                 </div>
             </div>
-    
+
             <div class="new-toAll">
-                <a href="#">
+                <a href="item_list.html">
                     <p>取り扱い一覧ページへ</p>
                 </a>
             </div>
-       </section>
-    
-       <section class="recommend">
+        </section>
+
+        <section class="recommend">
             <div class="recommend_wrap">
                 <div class="recommend_title">
                     <h2>RECOMMEND ITEMS</h2>
                     <h3>オススメ商品</h3>
                 </div>
-        
+
                 <div class="list">
                     <div class="list-table">
                         <div class="list-item">
@@ -165,21 +178,22 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="new-toAll">
-                    <a href="#">
+                    <a href="item_list.html">
                         <p>取り扱い一覧ページへ</p>
                     </a>
                 </div>
             </div>
-       </section>
-   </div>
+        </section>
+    </div>
 
-   <footer class="footer">
+    <footer class="footer">
         <div>
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_red.png" alt="CooD">
         </div>
-   </footer>
+    </footer>
 </body>
+
 </html>

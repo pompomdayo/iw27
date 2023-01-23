@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +11,24 @@
     <link rel="stylesheet" href="css/about.css">
     <script>
         /*フォント*/
-        (function(d) {
-          var config = {
-            kitId: 'fwa6diz',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        (function (d) {
+            var config = {
+                kitId: 'fwa6diz',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
-      </script>
+    </script>
 </head>
 
 <body>
-   <header class="header">
+    <header class="header">
         <div class="header-logo">
-            <p>キャンプ飯 ONLINE STORE</p>
-            <img src="images/logo_black.png" alt="CooD">
+            <a href="index.html">
+                <p>キャンプ飯 ONLINE STORE</p>
+                <img src="images/logo_black.png" alt="CooD">
+            </a>
         </div>
         <div class="header-search">
             <form action="">
@@ -36,42 +39,51 @@
         <div class="header-nav">
             <nav>
                 <ul class="header-nav-ul">
-                    <a href="#"><li class="border-right">商品を選ぶ</li></a>
-                    <a href="#"><li class="border-right">ログイン</li></a>
-                    <a href="about.html"><li class="border-right">Coodとは？</li></a>
-                    <a href="contact.html"><li>問い合わせ</li></a>
+                    <a href="item_list.html">
+                        <li class="border-right">商品を選ぶ</li>
+                    </a>
+                    <a href="#">
+                        <li class="border-right">ログイン</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="border-right">Coodとは？</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>問い合わせ</li>
+                    </a>
                 </ul>
             </nav>
         </div>
-   </header>
+    </header>
 
-   <div class="wrapper">
-       <div class="about-logo">
+    <div class="wrapper">
+        <div class="about-logo">
             <img src="images/about_logo.png" alt="CooDのロゴ">
             <h2>CooDとは？</h2>
-       </div>
+        </div>
 
-       <div class="about-text-group">
+        <div class="about-text-group">
             <h1 class="about-service-hedding">キャンプ料理や食材のセットの配達を行うサービス</h1>
             <p class="about-service-text">アウトドアに欠かせない要素として、アウトドアギアはもちろんのこと、食事も欠かせない要素の一つに上がっています。<br>
-            料理はアウトドアの醍醐味の一つですが、料理って準備や洗い物が面倒くさいですよね？<br>
-            そういった方々のためにCoodではキャンプ料理や食材のセットの配達を通して全てのアウトドア好きの方をサポートします。</p>
-            
+                料理はアウトドアの醍醐味の一つですが、料理って準備や洗い物が面倒くさいですよね？<br>
+                そういった方々のためにCoodではキャンプ料理や食材のセットの配達を通して全てのアウトドア好きの方をサポートします。</p>
+
             <img class="vertical_line" src="images/vertical_line.jpg" alt="">
 
             <h1 class="about-delivery-hedding">キャンプ場へ配達</h1>
             <p class="about-delivery-text">CooDではお家はもちろんのこと、Coodが提携しているキャンプ場に商品を配達することができます。<br>
-            キャンプ場に配達された商品はその食材に適した温度で管理されます。<br>
-            食材を買って持ち込む必要が無くなるのでおすすめです。</p>
-       </div>
-       
-   </div>
+                キャンプ場に配達された商品はその食材に適した温度で管理されます。<br>
+                食材を買って持ち込む必要が無くなるのでおすすめです。</p>
+        </div>
 
-   <footer class="footer">
+    </div>
+
+    <footer class="footer">
         <div>
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_red.png" alt="CooD">
         </div>
-   </footer>
+    </footer>
 </body>
+
 </html>
