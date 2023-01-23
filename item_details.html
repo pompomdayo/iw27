@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,19 +11,19 @@
     <link rel="stylesheet" href="css/item_details.css">
     <script>
         /*フォント*/
-        (function(d) {
-          var config = {
-            kitId: 'fwa6diz',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        (function (d) {
+            var config = {
+                kitId: 'fwa6diz',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
-      </script>
+    </script>
 </head>
 
 <body>
-   <header class="header">
+    <header class="header">
         <div class="header-logo">
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_black.png" alt="CooD">
@@ -36,65 +37,73 @@
         <div class="header-nav">
             <nav>
                 <ul class="header-nav-ul">
-                    <a href="#"><li class="border-right">商品を選ぶ</li></a>
-                    <a href="#"><li class="border-right">ログイン</li></a>
-                    <a href="about.html"><li class="border-right">Coodとは？</li></a>
-                    <a href="contact.html"><li>問い合わせ</li></a>
+                    <a href="item_list.html">
+                        <li class="border-right">商品を選ぶ</li>
+                    </a>
+                    <a href="#">
+                        <li class="border-right">ログイン</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="border-right">Coodとは？</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>問い合わせ</li>
+                    </a>
                 </ul>
             </nav>
         </div>
-   </header>
+    </header>
 
-   <div class="wrapper">
+    <div class="wrapper">
         <div class="item-details-wrapper">
             <div class="item-img">
                 <img src="images/item_roast-beef.jpg" alt="ローストビーフ　赤ワインソース">
             </div>
-            <div class="item-details"> 
-                    <div class="item-desc">
-                    
-                        <p>ローストビーフ　赤ワインソース　(特定加熱食肉製品)</p>
-                            <p>内容：1セット（１～２人用）</p>
-                            <p>カテゴリー：肉</p>
-                    </div>
+            <div class="item-details">
+                <div class="item-desc">
+
+                    <p>ローストビーフ　赤ワインソース　(特定加熱食肉製品)</p>
+                    <p>内容：1セット（１～２人用）</p>
+                    <p>カテゴリー：肉</p>
+                </div>
                 <table>
-                        <colgroup>
-                            <col span="2">
-                        </colgroup>
-                    
-                        
+                    <colgroup>
+                        <col span="2">
+                    </colgroup>
+
+
                     <tbody>
-                            <tr>
-                                <th>名称</th>
-                                <td>ローストビーフ　赤ワインソース</td>
-                            </tr>
-                            <tr>
-                                <th>原材料名</th>
-                                <td>牛もも肉(豪州産）、塩、香辛料、醤油(小麦・大豆を含む)　調味料(アミノ酸等)、バルサミコ酢、赤ワイン、はちみつ、にんにく</td>
-                            </tr>
-                        
-                            <tr>
-                                <th>特定材料7品目</th>
-                                <td>小麦、大豆、牛肉</td>
-                            </tr>
-                            <tr>
-                                <th>内容量</th>
-                                <td>ローストビーフ　200ｇ<br>
-                                    赤ワインソース　1個</td>
-                            </tr>
-                            <tr>
-                                <th>保存方法</th>
-                                <td>冷凍保存 ※-18度以下</td>
-                            </tr>
+                        <tr>
+                            <th>名称</th>
+                            <td>ローストビーフ　赤ワインソース</td>
+                        </tr>
+                        <tr>
+                            <th>原材料名</th>
+                            <td>牛もも肉(豪州産）、塩、香辛料、醤油(小麦・大豆を含む)　調味料(アミノ酸等)、バルサミコ酢、赤ワイン、はちみつ、にんにく</td>
+                        </tr>
+
+                        <tr>
+                            <th>特定材料7品目</th>
+                            <td>小麦、大豆、牛肉</td>
+                        </tr>
+                        <tr>
+                            <th>内容量</th>
+                            <td>ローストビーフ　200ｇ<br>
+                                赤ワインソース　1個</td>
+                        </tr>
+                        <tr>
+                            <th>保存方法</th>
+                            <td>冷凍保存 ※-18度以下</td>
+                        </tr>
                     </tbody>
                 </table>
-                
+
                 <div class="price">
                     <h3>1,700<span>円 (税込)</span></h3>
                 </div>
                 <div class="cart">
                     <form action="" method="post">
-                        <input class="quantity" type="number"  min="1" value="1">
+                        <input class="quantity" type="number" min="1" value="1">
                         <button type="submit" name="">カートに入れる</button>
                     </form>
                 </div>
@@ -105,52 +114,65 @@
                 <div class="recommend_title">
                     <h3>ご一緒にいかがですか？</h3>
                 </div>
-        
+
                 <div class="list">
                     <div class="list-table">
                         <div class="list-item">
-                            <img src="images/item.png" alt="">
-                            <p class="list-item-name">豚肉 バラ肉 200g</p>
-                            <p class="list-item-price">¥1,000</p>
+                            <a href="item_details.html">
+                                <img src="images/item.png" alt="">
+                                <p class="list-item-name">豚肉 バラ肉 200g</p>
+                                <p class="list-item-price">¥1,000</p>
+                            </a>
                         </div>
                         <div class="list-item">
-                            <img src="images/item.png" alt="">
-                            <p class="list-item-name">豚肉 バラ肉 200g</p>
-                            <p class="list-item-price">¥1,000</p>
+                            <a href="item_details.html">
+                                <img src="images/item.png" alt="">
+                                <p class="list-item-name">豚肉 バラ肉 200g</p>
+                                <p class="list-item-price">¥1,000</p>
+                            </a>
                         </div>
                         <div class="list-item">
-                            <img src="images/item.png" alt="">
-                            <p class="list-item-name">豚肉 バラ肉 200g</p>
-                            <p class="list-item-price">¥1,000</p>
+                            <a href="item_details.html">
+                                <img src="images/item.png" alt="">
+                                <p class="list-item-name">豚肉 バラ肉 200g</p>
+                                <p class="list-item-price">¥1,000</p>
+                            </a>
                         </div>
                     </div>
                     <div class="list-table">
                         <div class="list-item">
-                            <img src="images/item.png" alt="">
-                            <p class="list-item-name">豚肉 バラ肉 200g</p>
-                            <p class="list-item-price">¥1,000</p>
+                            <a href="item_details.html">
+                                <img src="images/item.png" alt="">
+                                <p class="list-item-name">豚肉 バラ肉 200g</p>
+                                <p class="list-item-price">¥1,000</p>
+                            </a>
                         </div>
                         <div class="list-item">
-                            <img src="images/item.png" alt="">
-                            <p class="list-item-name">豚肉 バラ肉 200g</p>
-                            <p class="list-item-price">¥1,000</p>
+                            <a href="item_details.html">
+                                <img src="images/item.png" alt="">
+                                <p class="list-item-name">豚肉 バラ肉 200g</p>
+                                <p class="list-item-price">¥1,000</p>
+                            </a>
                         </div>
                         <div class="list-item">
-                            <img src="images/item.png" alt="">
-                            <p class="list-item-name">豚肉 バラ肉 200g</p>
-                            <p class="list-item-price">¥1,000</p>
+                            <a href="item_details.html">
+                                <img src="images/item.png" alt="">
+                                <p class="list-item-name">豚肉 バラ肉 200g</p>
+                                <p class="list-item-price">¥1,000</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-       </section>
-   </div>
-   
-   <footer class="footer">
+        </section>
+    </div>
+
+    <footer class="footer">
         <div>
             <p>キャンプ飯 ONLINE STORE</p>
             <img src="images/logo_red.png" alt="CooD">
         </div>
-   </footer>
+    </footer>
 </body>
+
 </html>
