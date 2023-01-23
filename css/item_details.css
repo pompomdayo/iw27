@@ -10,8 +10,11 @@ item_details.htmlのcss
     display: flex;
     justify-content: center;
 }
+.item-details {
+    width: 50%;
+}
 .item-img {
-    
+    width: 50%;
     margin: 0 100px 0 0;
 }
 .item-img img {
@@ -20,13 +23,14 @@ item_details.htmlのcss
 table {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    table-layout:fixed;
 }
 
 tbody tr {
     display: flex;
     align-items: center;
     height: 64px;
-    
 }
 tbody tr th {
     width: 120px;
@@ -37,13 +41,15 @@ tbody tr th {
 }
 tbody tr td {
   
-}
+}   
 tbody tr:nth-child(odd) {
     background-color: #F5F5F5;
 }
 tbody tr:nth-child(2) {
-    
-    height: 150px;
+    height: 100px;
+}
+tbody tr th:nth-child(2) {
+
 }
 tbody tr:last-child {
     margin: 0 0 45px 0;
@@ -89,7 +95,7 @@ tbody tr:last-child {
 }
 
 .recommend {
-
+    margin: 0 0 147px 0;
 }
 .recommend_wrap {
     max-width: 1200px;
