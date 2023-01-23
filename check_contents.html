@@ -25,8 +25,10 @@
 <body>
     <header class="header">
         <div class="header-logo">
-            <p>キャンプ飯 ONLINE STORE</p>
-            <img src="images/logo_black.png" alt="CooD">
+            <a href="index.html">
+                <p>キャンプ飯 ONLINE STORE</p>
+                <img src="images/logo_black.png" alt="CooD">
+            </a>
         </div>
         <div class="header-search">
             <form action="">
@@ -37,7 +39,7 @@
         <div class="header-nav">
             <nav>
                 <ul class="header-nav-ul">
-                    <a href="#">
+                    <a href="item_list.html">
                         <li class="border-right">商品を選ぶ</li>
                     </a>
                     <a href="#">
@@ -75,11 +77,11 @@
                 </div>
                 <div>
                     <h6>配送情報</h6>
-                    <div>
+                    <div class="item">
                         <div>
                             <img src="images/item.png" alt="">
                         </div>
-                        <div>
+                        <div class="item_text">
                             <p>豚肉 バラ肉 200g</p>
                             <p>¥1,000×4　　小計：¥4,000</p>
                         </div>
@@ -104,29 +106,33 @@
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="amount">
+                <div class="amount_detail">
                     <p>小計</p>
                     <p>￥ 4,000</p>
                 </div>
-                <div>
+                <div class="amount_detail">
                     <p>手数料</p>
                     <p>￥0</p>
                 </div>
-                <div>
+                <div class="amount_detail">
                     <p>送料</p>
                     <p>￥ 800</p>
                 </div>
-                <div>
+                <div class="amount_total">
                     <div>
                         <p>合計<span>￥4,800</span>税込
                         </p>
-                        <p>税率10%対象</p>
-                        <p>お支払い合計<span>￥4,800</span><span>税込</span></p>
+                        <p class="amount_total__tax">税率10%対象</p>
+                        <p>お支払い合計<span class="amount_total__total">￥4,800</span>税込</p>
                     </div>
-                    <button>注文確定する</button>
-                    <button>注文手続きに戻る</button>
                 </div>
+                <a href="#">
+                    <button class="confirm">注文確定する</button>
+                </a>
+                <a href="check_payment.html">
+                    <button class="return">注文手続きに戻る</button>
+                </a>
             </div>
         </section>
 

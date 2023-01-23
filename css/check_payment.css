@@ -107,6 +107,12 @@ h2 {
     padding: 10px 50px;
     border-radius: 10px;
 }
+.cart button:hover {
+    cursor: pointer;
+    border: 2px solid #D9333F;
+    background-color: white;
+    color: #D9333F;
+}
 
 .next {
     display: flex;
@@ -116,4 +122,10 @@ h2 {
     color: white;
     padding: 10px 50px;
     border-radius: 10px;
+}
+.next:hover {
+    cursor: pointer;
+    border: 2px solid #D9333F;
+    background-color: white;
+    color: #D9333F;
 }
