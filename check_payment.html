@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CooD | キャンプ飯専門online store</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/check_payment.css">
+    <script>
+        /*フォント*/
+        (function (d) {
+            var config = {
+                kitId: 'fwa6diz',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="index.html">
+                <p>キャンプ飯 ONLINE STORE</p>
+                <img src="images/logo_black.png" alt="CooD">
+            </a>
+        </div>
+        <div class="header-search">
+            <form action="">
+                <input type="search" placeholder="キーワードを入力" class="header-search-input">
+                <input type="submit" value="検索" class="header-search-btn">
+            </form>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul class="header-nav-ul">
+                    <a href="item_list.html">
+                        <li class="border-right">商品を選ぶ</li>
+                    </a>
+                    <a href="#">
+                        <li class="border-right">ログイン</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="border-right">Coodとは？</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>問い合わせ</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="breadcrubs">
+            <img src="images/check_payment__breadcrubs.png" alt="決済情報入力">
+        </div>
+
+        <h2>お支払い方法</h2>
+
+        <section class="payment">
+            <table class="payment_input">
+                <tr>
+                    <th class="payment_input_radio">
+                        <input type="radio" name="BankConvenience" value="現金支払い（代金引換）">銀行・コンビニ決済
+                    </th>
+                    <th class="payment_input_detail">
+                        <div>
+                            <p>商品代金お支払い確認後の配送になります。
+                                恐れ入りますが、振込手数料はお客様ご負担でお願い致します。
+                            </p>
+                        </div>
+                        <div>
+                            <p>ご利用可能なコンビニ</p>
+                            <img src="images/payment_convenience.png" alt="ファミリーマート、セブンイレブン、ローソン">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="payment_input_radio">
+                        <input type="radio" name="cash" value="現金支払い（代金引換）">現金支払い（代金引換）
+                    </th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th class="payment_input_radio">
+                        <input type="radio" name="cash" value="クレジットカード決済">クレジットカード決済
+                    </th>
+                    <th class="payment_input_detail">
+                        <p>お支払いは、ご一括のみ対応となります。
+                            以下にクレジットカードの情報をご入力ください。
+                        </p>
+                        <form action="">
+                            <p>カード番号<br>
+                                <input type="text">
+                            </p>
+                            <p>カード名義人
+                                <input type="text">
+                            </p>
+                            <p>有効期限（月/年）
+                            <div class="date">
+                                <input type="text">　/　<input type="text">
+                            </div>
+                            </p>
+                            <p>セキュリティーコード
+                            <div class="code">
+                                <input type="text">
+                                <img src="images/payment_securitycode.png" alt="カードに記載された3・4桁の数字です">
+                            </div>
+                            </p>
+                        </form>
+                    </th>
+                </tr>
+            </table>
+
+            <div class="cart">
+                <table>
+                    <tr>
+                        <th class="cart_img">
+                            <img src="images/item.png" alt="">
+                        </th>
+                        <th class="cart_name">
+                            <p>豚肉 バラ肉 200g</p>
+                        </th>
+                        <th class="cart_price">
+                            <p>¥1,000</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="cart_img">
+                            <img src="images/item.png" alt="">
+                        </th>
+                        <th class="cart_name">
+                            <p>豚肉 バラ肉 200g</p>
+                        </th>
+                        <th class="cart_price">
+                            <p>¥1,000</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="total_price">
+                            <p>¥4,000</p>
+                        </th>
+                    </tr>
+                </table>
+                <a href="cart.html">
+                    <button>カート情報変更</button>
+                </a>
+
+
+            </div>
+        </section>
+
+        <a href="check_contents.html"><button class="next">次へ</button></a>
+
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p>キャンプ飯 ONLINE STORE</p>
+            <img src="images/logo_red.png" alt="CooD">
+        </div>
+    </footer>
+</body>
+
+</html>

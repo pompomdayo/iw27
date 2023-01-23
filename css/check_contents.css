@@ -1,0 +1,105 @@
+/* 
+check_contents.htmlのCSS
+*/
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+h2 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+.purchaser {
+    width: 700px;
+}
+.purchaser h6 {
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+.purchaser p {
+    padding: 10px 0;
+}
+.purchaser .item {
+    padding: 10px 0;
+    display: flex;
+}
+.purchaser .item img {
+    width: 150px;
+}
+.purchaser .item .item_text {
+    padding-left: 10px;
+}
+.purchaser span {
+    padding-right: 2px;
+    font-weight: bold;
+}
+
+.amount {
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    background-color: #F2F2F2;
+}
+.amount_detail {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.amount_total {
+    padding: 20px 0;
+    border-top: solid 1px #707070;
+    text-align: right;
+}
+.amount_total p {
+    padding: 5px 0;
+}
+.amount_total__tax {
+    font-size: 0.75rem;
+}
+.amount_total span {
+    padding: 0 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.amount_total__total {
+    color: #D9333F;
+}
+
+.confirm {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #D9333F;
+}
+.confirm:hover {
+    cursor: pointer;
+    border: 2px solid #D9333F;
+    background-color: #F2F2F2;
+    color: #D9333F;
+}
+.return {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #2E2E2E;
+}
+.return:hover {
+    cursor: pointer;
+    border: 2px solid #2E2E2E;
+    background-color: #F2F2F2;
+    color: #2E2E2E;
+} 
