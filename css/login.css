@@ -1,0 +1,113 @@
+/* 
+index.htmlのcss
+*/
+
+.wrapper {
+    padding-bottom: 188px;
+}
+
+/* メイン */
+
+.main {
+    width: 220px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.main h1 {
+    display: none;
+}
+.main img {
+    width: 220px;
+    margin: 0 auto 50px auto;
+    
+}
+
+/* 入力 */
+.mailAddress {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0 0 50px 0;
+    font-size: 1.5rem;
+    background-color: #B8B8B8;
+    border-radius: 10px;
+}
+.mailAddress p {
+    width: 210px;
+    text-align: center;
+    align-self: center;
+    color: #FFFFFF;
+    background-color: #B8B8B8;
+    border-radius: 10px 0 0 10px;
+}
+.mailAddress-example{
+    width: 600px;
+    padding: 0 0 0 30px;
+    border: 1px solid #707070;
+    border-radius: 0 10px 10px 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+::placeholder {
+  color: #B8B8B8;
+}
+.password {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0 0 50px 0;
+    font-size: 1.5rem;
+    background-color: #B8B8B8;
+    border-radius: 10px;
+}
+.password p {
+    width: 210px;
+    text-align: center;
+    align-self: center;
+    color: #FFFFFF;
+    background-color: #B8B8B8;
+    border-radius: 10px 0 0 10px;
+}
+.password-input {
+    width: 600px;
+    padding: 0 0 0 30px;
+    border: 1px solid #707070;
+    border-radius: 0 10px 10px 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.login-button {
+    display: block;
+    margin: 0 auto 187px auto;
+    width: 210px;
+    height: 100px;
+    text-align: center;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    background-color: #D9333F;
+    border: none;
+    border-radius: 10px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+    /* text-align: center; */
+    
+    /* background-color: blueviolet; */
+}
+
+.box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+/* ログインボタン */
