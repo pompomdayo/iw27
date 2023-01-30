@@ -20,7 +20,34 @@ index.htmlのcss
 }
 .main img {
     width: 800px;
+    height: 430px;
+    object-fit: cover;
 }
+
+#topKv {
+    animation :imgfade 4s infinite;
+    opacity: 0;
+    }
+    
+    @keyframes imgfade {
+        0% {
+            opacity: 0;
+        }
+        
+        25% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+    
+        75% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 
 /* 新着商品 */
 .new {

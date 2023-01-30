@@ -84,11 +84,14 @@ tbody tr:last-child {
 .cart {
     margin: 0 0 200px 0;
 }
+.cart_button {
+    display: flex;
+    justify-content: space-between;
+}
 .cart button {
-    margin: 0 0 0 2.9vw;
-    width: 50%;
-    padding: 10px 0;
-    font-size: 1.5rem;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 1.25rem;
     color: #FFFFFF;
     background-color: #2E2E2E;
     border-radius: 10px;
