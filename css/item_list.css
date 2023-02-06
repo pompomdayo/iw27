@@ -117,3 +117,33 @@ select::-ms-expand {
     border: 1px solid #B8B8B8;
     border-radius: 50px;
 }
+
+@media screen and (max-width:520px) {
+    .wrapper {
+        padding-top: 50px;
+    }
+    .title {
+        padding-bottom: 32px;
+    }
+
+    .search {
+        width: 98vw;
+        padding: 20px 6px;
+    }
+    .search p {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .seatch_words {
+        margin: 10px;
+        padding: 8px 10px;
+    }
+    .search_text {
+        width: 90vw;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .search_text_box {
+        width: 250px;
+    }
+}

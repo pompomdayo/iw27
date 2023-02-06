@@ -26,6 +26,12 @@ table {
     width: 100%;
     table-layout:fixed;
 }
+.pc {
+    display: block;
+}
+.sp {
+    display: none;
+}
 
 tbody tr {
     display: flex;
@@ -123,4 +129,36 @@ tbody tr:last-child {
     margin: 0 auto;
     padding-top: 12px;
     font-size: 1.25rem;
+}
+
+@media screen and (max-width:520px) {
+    .wrapper {
+        width: 100vw;
+        margin: 50px auto 0;
+    }
+    .item-details-wrapper {
+        display: block;
+    }
+    .item-img {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .item-details {
+        width: 80vw;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    .price h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .cart {
+        margin: 0 0 100px 0;
+    }
 }

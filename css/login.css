@@ -19,7 +19,6 @@ index.htmlのcss
 .main img {
     width: 220px;
     margin: 0 auto 50px auto;
-    
 }
 
 /* 入力 */
@@ -111,3 +110,25 @@ index.htmlのcss
 }
 
 /* ログインボタン */
+
+@media screen and (max-width:520px) {
+    .wrap {
+        width: 100vw;
+    }
+    .mailAddress {
+        display: block;
+        height: 30px;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        background-color: #B8B8B8;
+        border-radius: 10px;
+    }
+    .mailAddress p {
+        width: 100vw;
+        text-align: center;
+        align-self: center;
+        color: #FFFFFF;
+        background-color: #B8B8B8;
+        border-radius: 10px 0 0 10px;
+    }
+}

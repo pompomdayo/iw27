@@ -95,3 +95,17 @@ index.htmlのcss
     padding-top: 12px;
     font-size: 1.25rem;
 }
+
+@media screen and (max-width:520px) {
+    .main {
+        width: 100vw;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .main img {
+        width: 100vw;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+    
