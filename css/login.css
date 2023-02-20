@@ -87,8 +87,8 @@ index.htmlのcss
     background-color: #D9333F;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
-
 .wrap{
     display: flex;
     justify-content: center;
