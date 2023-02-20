@@ -25,8 +25,10 @@
 <body>
     <header class="header">
         <div class="header-logo">
-            <p>キャンプ飯 ONLINE STORE</p>
-            <img src="images/logo_black.png" alt="CooD">
+            <a href="index.html">
+                <p>キャンプ飯 ONLINE STORE</p>
+                <img src="images/logo_black.png" alt="CooD">
+            </a>
         </div>
         <div class="header-search">
             <form action="">
@@ -52,7 +54,36 @@
                 </ul>
             </nav>
         </div>
+
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ここからメニュー-->
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="item_list.html">商品を選ぶ</a>
+                    </li>
+                    <li>
+                        <a href="login.html">ログイン</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Coodとは？</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ここまでメニュー-->
+        </div>
     </header>
+
+    <div class="cart_btn">
+        <a href="cart.html">
+            <img src="images/cart_btn.png" alt="カートを見る">
+        </a>
+    </div>
 
     <div class="wrapper">
         <div class="item-details-wrapper">
@@ -83,7 +114,8 @@
                         </tr>
 
                         <tr>
-                            <th>特定材料7品目</th>
+                            <th class="pc">特定材料7品目</th>
+                            <th class="sp">特定材料<br>7品目</th>
                             <td>小麦、大豆、牛肉</td>
                         </tr>
                         <tr>
