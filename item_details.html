@@ -140,7 +140,7 @@
                     </form> -->
                     <div class="cart_button">
                         <input class="quantity" type="number" min="1" value="1">
-                        <a href="cart.html"><button>カートに入れる</button></a>
+                        <button onclick="send()">カートに入れる</button>
                     </div>
                 </div>
             </div>
@@ -211,6 +211,12 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        function send() {
+            alert('カートに追加されました。')
+        };
+    </script>
 </body>
 
 </html>
